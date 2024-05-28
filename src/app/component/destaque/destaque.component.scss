@@ -1,0 +1,87 @@
+$cor-texto: #5B5247;
+$dourado-claro:#D1BB93;
+$dourado:#AF9D81;
+$cinza-claro:#f7f2ea;
+
+*{
+    max-width: 100dvw;
+}
+
+#tudo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+
+}
+
+#fundo{
+    position: absolute;
+    width: 70dvw;
+    height: 75dvh;
+    background-color: $cinza-claro; /* Cor de fundo desejada */
+    z-index: -1;
+}
+
+.img-destaque{
+    width: auto;
+    height: 20dvw;
+}
+
+#destaques{
+    display: flex;
+    width: 100dvw;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.box-destaque{
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-destaque button{
+    width: 13dvw;
+    font-size:1.3dvw ;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 50px;
+    background-color:$dourado ;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+//============================================================MOBILE============================================================
+
+@media(max-width: 875px) {
+    #destaques{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-destaque{
+        width: auto;
+        height: 60dvw;
+    }
+    .box-destaque button{
+        width: 40dvw;
+        font-size:1.2rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 50px;
+        background-color:$dourado ;
+        color: white;
+        margin-top: 1.5rem;
+        margin-bottom: 1.7rem;
+    }
+    #fundo{
+        position: absolute;
+        width: 70dvw;
+        height: 100%;
+        background-color: $cinza-claro; /* Cor de fundo desejada */
+        z-index: -1;
+    }
+
+}
