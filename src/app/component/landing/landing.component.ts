@@ -6,6 +6,8 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { RouterModule } from '@angular/router';
+
 
 
 @Component({
@@ -18,14 +20,15 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     MatButtonModule, 
     MatMenuModule, 
     MatIconModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    RouterModule
   ],
   templateUrl: './landing.component.html',
   styleUrl: './landing.component.scss'
 })
 export class LandingComponent {
 
-  @ViewChild(MatMenuTrigger) menu!: MatMenuTrigger;
+  produtos:string = '/produtos'
 
 
 }

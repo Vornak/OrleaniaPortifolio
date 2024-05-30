@@ -8,6 +8,12 @@ nav{
     align-items: center;
 }
 
+a button{
+    font-size: 1rem;
+    color: $cor-texto;
+    font-weight: 700;
+}
+
 #background-inicio{
     display: none;
 }
