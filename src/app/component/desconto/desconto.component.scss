@@ -1,0 +1,48 @@
+$cor-texto: #5B5247;
+$dourado-claro:#D1BB93;
+$dourado:#AF9D81;
+$cinza-claro:#f7f2ea;
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 875px) {
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+main{
+    background: linear-gradient(rgba(134, 134, 134, 0.493), rgba(51, 51, 51, 0.7)), url('../../../assets/desconto.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60dvh;
+}
+
+#card{
+    background-color: white;
+    width: 70dvw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.5rem;
+    
+    border: 2px solid $dourado;
+    border-radius: 5px;
+}
+
+}

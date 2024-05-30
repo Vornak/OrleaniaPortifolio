@@ -25,10 +25,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 })
 export class LandingComponent {
 
-  @ViewChild(MatMenuTrigger) trigger!: MatMenuTrigger;
+  @ViewChild(MatMenuTrigger) menu!: MatMenuTrigger;
 
-  someMethod() {
-    this.trigger.openMenu();
-  }
 
 }

@@ -1,0 +1,22 @@
+$cor-texto: #5B5247;
+$dourado-claro:#D1BB93;
+$dourado:#AF9D81;
+$cinza-claro:#f7f2ea;
+
+main{
+    padding-top: 3dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $cinza-claro;
+}   
+
+main div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+p{
+    margin: 1rem;
+}
