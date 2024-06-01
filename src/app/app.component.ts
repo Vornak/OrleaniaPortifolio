@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { DestaqueComponent } from "./component/destaque/destaque.component";
 import { LayoutModule } from '@angular/cdk/layout';
 
+
 @Component({
     selector: 'app-root',
     standalone: true,
