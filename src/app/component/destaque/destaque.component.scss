@@ -27,6 +27,14 @@ $cinza-claro:#f7f2ea;
 .img-destaque{
     width: auto;
     height: 20dvw;
+    border-radius: 10px;
+
+    transition: transform 0.3s;
+    transition-duration: 0.3s;
+}
+
+.img-destaque:hover{
+    transform: scale(1.1);
 }
 
 #destaques{
@@ -45,14 +53,22 @@ $cinza-claro:#f7f2ea;
     align-items: center;
 }
 
-.box-destaque button{
+button{
     width: fit-content;
     font-size:1.5rem ;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 1rem;
     border-radius: 50px;
-    background-color:$dourado ;
+    background-color:$dourado;
     color: white;
     margin-top: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    
 }
 
 //============================================================MOBILE============================================================

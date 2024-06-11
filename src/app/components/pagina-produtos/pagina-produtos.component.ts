@@ -14,9 +14,12 @@ import { FooterComponent } from "../../component/footer/footer.component";
     imports: [RouterModule, CommonModule, FooterComponent]
 })
 export class PaginaProdutosComponent {
+
   produtos:Produtos[] = [
     {nome:'nomeQualquer', foto:'assets/produtos/20240530_141652.jpg', preco:'R$59'},
     {nome:'nomeQualquer', foto:'assets/produtos/20240530_141600.jpg', preco:'R$59'},
-    {nome:'nomeQualquer', foto:'assets/produtos/20240530_142041.jpg', preco:'R$59'},
+    {nome:'nomeQualquer', foto:'assets/produtos/20240530_142041.jpg', preco:'R$59'}
   ]
+
+
 }
