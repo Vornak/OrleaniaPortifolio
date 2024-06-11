@@ -7,7 +7,11 @@ import { ColecoesComponent } from './component/colecoes/colecoes.component';
 
 export const routes: Routes = [
     {path:'',component:HomeComponent},
+<<<<<<< HEAD
     {path:'produtos', component:PaginaProdutosComponent},
     {path:'colecoes', component:ColecoesComponent}
+=======
+    {path:'produtos', component:PaginaProdutosComponent}
+>>>>>>> ff915250791f75df064cfed0f7de13a0bfe00f90
 
 ];
