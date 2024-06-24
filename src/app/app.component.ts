@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { DestaqueComponent } from "./component/destaque/destaque.component";
 import { LayoutModule } from '@angular/cdk/layout';
-
+import { MenuModule } from 'primeng/menu';
 
 @Component({
     selector: 'app-root',

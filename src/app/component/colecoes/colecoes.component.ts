@@ -11,11 +11,11 @@ import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-colecoes',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './colecoes.component.html',
   styleUrl: './colecoes.component.scss'
 })
 export class ColecoesComponent {
 
-
+  produtos:string = '/produtos'
 }

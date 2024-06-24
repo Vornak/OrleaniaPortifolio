@@ -14,24 +14,11 @@ a button{
     font-weight: 700;
 }
 
-#logo-img{
-    width: 13dvw;
-}
-
-#logo{
-    align-items: center;
-    margin: 0;
-}
-
-
 
 #background-inicio{
     display: none;
 }
 
-#side-nav{
-    display: none;
-}
 
 nav div{
     display: flex;
@@ -126,12 +113,16 @@ button{
         align-items: center;
 
     }
-
-
-
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5dvw 0 5dvw;
+        align-items: center;
+    }
 
     .links-nav{
-        display: none;
+        font-size: 13px;
+        font-weight: 700;
     }
 
     #side-nav{

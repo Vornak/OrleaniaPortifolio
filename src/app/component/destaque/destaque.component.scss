@@ -20,7 +20,7 @@ $cinza-claro:#f7f2ea;
     position: absolute;
     width: 70dvw;
     height: 75dvh;
-    background-color: $cinza-claro; /* Cor de fundo desejada */
+    background-color: $dourado-claro; /* Cor de fundo desejada */
     z-index: -1;
 }
 
@@ -71,12 +71,16 @@ button:hover{
     
 }
 
+
 //============================================================MOBILE============================================================
 
 @media(max-width: 875px) {
     #destaques{
         display: flex;
         flex-direction: column;
+        width: 100dvw;
+        justify-content: center;
+        margin: 3rem;
     }
     .img-destaque{
         width: auto;
@@ -99,5 +103,15 @@ button:hover{
         background-color: $cinza-claro; /* Cor de fundo desejada */
         z-index: -1;
     }
+
+    #img-fundo{
+        width: auto;
+        border-radius: 10px;
+        background-image: url(../../../assets/destaque.png);
+    }
+
+
+
+
 
 }

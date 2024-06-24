@@ -5,15 +5,19 @@
     <div id="fundo"></div>
     <main>
         
-        <h3>Categoria</h3>
+        <h3>Produtos</h3>
         <div id="lista-produtos">
+
+
             <div class="box-produto" *ngFor="let item of produtos">
                     <img src={{item.foto}} alt="">
                 <div class="preco-btn">
                     <p class="preco">{{item.preco}}</p>
-                    <button class="btn-buy">Comprar</button>
+                    <button class="btn-buy"><a href="https://w.app/4kQaIw">Comprar</a></button>
                 </div>
             </div>
+
+
         </div>
     </main>
     <app-footer></app-footer>
